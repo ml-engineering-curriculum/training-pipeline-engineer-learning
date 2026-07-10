@@ -126,9 +126,10 @@ work distribution, block coalescing, and back-pressure.
 The tokenizer object must be **hash-pinned** across every worker.
 Idiomatic pattern:
 
-- Store the tokenizer artifact (`tokenizer.json` + `special_tokens_map.json`
-  + `tokenizer_config.json` — everything HF's `AutoTokenizer.from_pretrained`
-  needs) at a fixed URL: `s3://artifacts/tokenizers/<sha>/`.
+- Store the tokenizer artifact (`tokenizer.json`,
+  `special_tokens_map.json`, and `tokenizer_config.json` — everything
+  HF's `AutoTokenizer.from_pretrained` needs) at a fixed URL:
+  `s3://artifacts/tokenizers/<sha>/`.
 - Compute `sha = sha256(tokenizer.json)` once and record it in the
   runbook (chapter 7).
 - The tokenizer actor loads from that URL at startup and asserts on

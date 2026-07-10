@@ -222,8 +222,8 @@ Operator v2). Reach for **MPIJob** when:
 - You need `mpirun` to lay down process affinities or NUMA bindings the
   container runtime does not give you.
 
-Do not use MPIJob because "MPI feels more HPC". PyTorchJob + `torchrun`
-+ `c10d` rendezvous is the actively-developed path.
+Do not use MPIJob because "MPI feels more HPC". PyTorchJob with
+`torchrun` and `c10d` rendezvous is the actively-developed path.
 
 ## Common gotchas
 

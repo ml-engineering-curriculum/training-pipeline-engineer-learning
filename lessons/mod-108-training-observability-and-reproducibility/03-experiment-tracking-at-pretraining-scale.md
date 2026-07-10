@@ -240,8 +240,8 @@ A useful split:
 - The **researcher view** is the tracker's default project page.
   All the metrics land there. All the hyperparameter sweeps
   land there. It is a scroll-heavy page. No SLA on load time.
-- The **on-call view** is a fixed Grafana dashboard (chapter 1
-  + chapter 2) with a link out to the tracker's per-run page for
+- The **on-call view** is a fixed Grafana dashboard (chapters 1
+  and 2) with a link out to the tracker's per-run page for
   the currently-scheduled runs. The Grafana panels pull loss and
   MFU from the tracker's Prometheus exporter (W&B and MLflow
   both provide one) or from a hand-rolled scraper of the

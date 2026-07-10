@@ -295,8 +295,8 @@ will run in a steady month for the next 12–24 months. Baseload is what
 you buy reserved. Burst is what you buy on-demand or spot.
 
 **Step 2. Reservation split.** Of the baseload, what fraction should be
-reserved for term-length savings? The classic answer is 60–80% reserved
-+ 20–40% on-demand / spot for burst.
+reserved for term-length savings? The classic answer is 60–80%
+reserved + 20–40% on-demand / spot for burst.
 
 **Step 3. Sharing.** Of the reserved capacity, how much is dedicated to
 a flagship run vs. multi-tenant? mod-104 policy determines who sees the

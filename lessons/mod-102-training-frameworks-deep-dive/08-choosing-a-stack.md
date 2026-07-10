@@ -257,8 +257,8 @@ plus.
 
 Likely recommendation: **NeMo** — the SFT/DPO recipes, model-zoo
 integration, and Lightning Trainer buy the team an operational
-pipeline they would otherwise re-implement. Fallback: DeepSpeed
-+ HuggingFace `transformers` for the 8B path if NeMo integration
+pipeline they would otherwise re-implement. Fallback: DeepSpeed with
+HuggingFace `transformers` for the 8B path if NeMo integration
 proves fragile.
 
 Exit criteria: revisit if NeMo's Llama-family recipes ever fall

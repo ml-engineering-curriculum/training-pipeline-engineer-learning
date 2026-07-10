@@ -17,8 +17,8 @@ rather than as opaque reports.
 
 ## Learning objectives
 
-- Trace forward + backward through DDP (all-reduce), FSDP (reduce-scatter
-  + all-gather), and a ZeRO-3 partitioned step.
+- Trace forward and backward through DDP (all-reduce), FSDP
+  (reduce-scatter and all-gather), and a ZeRO-3 partitioned step.
 - Design a parallelism strategy (DP / TP / PP / SP / EP / HSDP /
   3D-parallel) from first principles for a target model + cluster shape.
 - Reason about NCCL collective costs (bandwidth × latency × topology)
