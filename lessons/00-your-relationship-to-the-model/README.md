@@ -45,7 +45,7 @@ Each row is a sibling org: what you hand them, what they hand you, and the role 
 
 ## Your ladder
 
-- **Before this role:** [Fine-Tuning Engineer](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning), [Model Evaluation Engineer](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-learning), [NLP Engineer](https://github.com/ml-engineering-curriculum/nlp-engineer-learning), [Senior Machine Learning Engineer](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning)
+- **Before this role:** [AI Data Engineer](https://github.com/ml-engineering-curriculum/ai-data-engineer-learning), [Fine-Tuning Engineer](https://github.com/ml-engineering-curriculum/fine-tuning-engineer-learning), [Model Evaluation Engineer](https://github.com/ml-engineering-curriculum/model-evaluation-engineer-learning), [NLP Engineer](https://github.com/ml-engineering-curriculum/nlp-engineer-learning), [Senior Machine Learning Engineer](https://github.com/ml-engineering-curriculum/senior-ml-engineer-learning)
 - **After this role:** [Staff Machine Learning Engineer](https://github.com/ml-engineering-curriculum/staff-ml-engineer-learning)
 
 ## Scenario: One model upgrade, five orgs
